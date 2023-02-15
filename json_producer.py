@@ -52,11 +52,11 @@ def delivery_report(err, event):
         print(f'Temp reading for {event.key().decode("utf8")} produced to {event.topic()}')
 
 
-data = [Temperature('London', 12, 'C', round(time.time()*1000)),
-        Temperature('Chicago', 63, 'F', round(time.time()*1000)),
-        Temperature('Berlin', 14, 'C', round(time.time()*1000)),
-        Temperature('Madrid', 18, 'C', round(time.time()*1000)),
-        Temperature('Phoenix', 78, 'F', round(time.time()*1000))]
+data = [Temperature('London', 12, 'C'),
+        Temperature('Chicago', 63, 'F'),
+        Temperature('Berlin', 14, 'C'),
+        Temperature('Madrid', 18, 'C'),
+        Temperature('Phoenix', 78, 'F')]
 
 
 if __name__ == '__main__':
