@@ -29,10 +29,6 @@ schema_str = """{
       "unit": {
         "description": "Temperature unit (C/F)",
         "type": "string"
-      },
-      "timestamp": {
-        "description": "Time of reading in ms since epoch",
-        "type": "number"
       }
     }
   }"""
